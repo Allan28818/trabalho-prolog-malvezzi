@@ -1,0 +1,10 @@
+CERTEZAS:
+OK - Na terceira posição está quem gosta de jogo da forca
+OK - Lenin está na quinta posição
+OK - Otávio está em uma das pontas
+OK - Na primeira posição está quem gosta de suco de limão
+OK - Na terceira posição está quem gosta de suco de morango
+OK - O garoto que gosta de biologia gosta de suco de morango
+
+REGRAS FORTES:
+OK - O garoto que gosta do Jogo da Forca está ao lado do que gosta do 3 ou Mais.
