@@ -84,6 +84,34 @@ model(Solution):-
   Mochila_3==azul,Suco_4==uva
   % Mochila_4==azul,Suco_5==uva
   ),
+    
+    
+  % O garoto da mochila Azul está em algum lugar a
+  %  esquerda de quem nasceu em maio.  
+  (   
+  Mochila_1==azul,Mes_2==maio;
+  Mochila_3==azul,Mes_4==maio
+  ),
+    
+  % O dono da mochila Azul nasceu em janeiro.
+  (   
+  Mochila_1==azul,Mes_1==janeiro;
+  Mochila_3==azul,Mes_3==janeiro
+  ),
+    
+  % Quem gosta do Jogo da Forca esta ao 
+  % lado do dono da mochila Vermelha.
+  (   
+  (Mochila_2==vermelha;Mochila_4==vermelha),Jogo_3==jogo_da_forca
+  ),
+    
+  % Quem curte Problemas de Logica esta ao 
+  % lado do menino da mochila Amarela.    
+  (   
+  (Mochila_1==amarela; Mochila_3==amarela),Jogo_2==prob_de_logica;
+  (Mochila_3==amarela; Mochila_4==amarela),Jogo_4==prob_de_logica;
+  (Mochila_4==amarela),Jogo_5==prob_de_logica
+  ),
   alldifferent([Mochila_1, Mochila_2, Mochila_3, Mochila_4, Mochila_5]),
 
   nome(Nome_1),
@@ -145,6 +173,15 @@ model(Solution):-
   Mes_4==setembro,(Suco_3==laranja;Suco_5==laranja)
   % Mes_5==setembro,Suco_4==laranja
   ),
+    
+  % O menino que gosta de Matematica nasceu em dezembro.  
+  (
+  Mes_1==dezembro,Materia_1==matematica;
+  Mes_2==dezembro,Materia_2==matematica;
+  % Mes_3==dezembro,Materia_3==matematica;
+  Mes_4==dezembro,Materia_4==matematica;
+  Mes_5==dezembro,Materia_5==matematica
+  ),
   alldifferent([Mes_1, Mes_2, Mes_3, Mes_4, Mes_5]),
 
   jogo(Jogo_1),
@@ -186,7 +223,19 @@ model(Solution):-
   % esquerda de quem gosta de Portugues.
   (
   Materia_3==portugues,Suco_2==uva;
-  Mateira_5==portugues,Suco_4==uva  
+  Materia_5==portugues,Suco_4==uva  
+  ),
+    
+    
+    
+  % Quem gosta de Matematica gosta tambem 
+  % de suco de Maracuja.
+  (
+  % Materia_1==matematica,Suco_1==maracuja;
+  Materia_2==matematica,Suco_2==maracuja;
+  % Materia_3==matematica,Suco_3==maracuja;
+  Materia_4==matematica,Suco_4==maracuja;
+  Materia_5==matematica,Suco_5==maracuja
   ),
   alldifferent([Materia_1, Materia_2, Materia_3, Materia_4, Materia_5]),
 

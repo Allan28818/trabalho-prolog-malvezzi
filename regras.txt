@@ -1,6 +1,6 @@
 OK 1. O menino que nasceu no mês de setembro está ao lado de quem gosta de suco de Laranja.
 OK 2. João gosta de história.
-3. O garoto da mochila Azul está em algum lugar à esquerda de quem nasceu em maio.
+OK 3. O garoto da mochila Azul está em algum lugar à esquerda de quem nasceu em maio.
 OK 4. Will está ao lado do menino que gosta de Problemas de Lógica.
 OK 5. O garoto da mochila Branca está exatamente à esquerda de Will.
 OK 6. Na terceira posição está quem gosta de suco de Morango.
@@ -10,12 +10,12 @@ OK 9. O menino que gosta de suco de Uva está em algum lugar à direita do garot
 OK 10. O garoto que gosta de Biologia gosta de suco de Morango.
 OK 11. O menino que nasceu em janeiro está ao lado de quem nasceu em setembro.
 OK 12. Quem gosta de suco de Uva está exatamente à esquerda de quem gosta de Português.
-13. O menino que gosta de Matemática nasceu em dezembro.
-14. Quem curte Problemas de Lógica está ao lado do menino da mochila Amarela.
-15. O dono da mochila Azul nasceu em janeiro.
+OK 13. O menino que gosta de Matemática nasceu em dezembro.
+OK 14. Quem curte Problemas de Lógica está ao lado do menino da mochila Amarela.
+OK 15. O dono da mochila Azul nasceu em janeiro.
 OK 16. O garoto que nasceu em setembro está ao lado de quem gosta de jogar Cubo Vermelho.
 OK 17. Na primeira posição está quem gosta de suco de Limão.
-18. Quem gosta de Matemática gosta também de suco de Maracujá.
+OK 18. Quem gosta de Matemática gosta também de suco de Maracujá.
 OK 19. Lenin está na quinta posição.
 OK 20. Em uma das pontas está o menino que adora jogar Cubo Vermelho.
 21. Quem gosta do Jogo da Forca está ao lado do dono da mochila Vermelha.
