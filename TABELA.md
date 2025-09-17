@@ -1,7 +1,5 @@
 ### Tabela final
 
-## Cor | Nome | Mês | Disciplina1 | Disciplina2 | Fruta
-
 | Cor      | Nome   | Mês  | Disciplina1 | Disciplina2 | Fruta    |
 | -------- | ------ | ---- | ----------- | ----------- | -------- |
 | Verde    | Otavio | Ago  | Cacap       | Geo         | Limão    |

@@ -18,6 +18,6 @@ OK 17. Na primeira posição está quem gosta de suco de Limão.
 OK 18. Quem gosta de Matemática gosta também de suco de Maracujá.
 OK 19. Lenin está na quinta posição.
 OK 20. Em uma das pontas está o menino que adora jogar Cubo Vermelho.
-21. Quem gosta do Jogo da Forca está ao lado do dono da mochila Vermelha.
+OK 21. Quem gosta do Jogo da Forca está ao lado do dono da mochila Vermelha.
 OK 22. Otávio está em uma das pontas.
 OK 23. Na terceira posição está o menino que gosta do Jogo da Forca.
